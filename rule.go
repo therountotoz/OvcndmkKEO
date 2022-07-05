@@ -21,7 +21,6 @@ func (rt RuleType) String() string {
 	switch rt {
 	case Domain:
 		return "Domain"
-	case DomainSuffix:
 		return "DomainSuffix"
 	case DomainKeyword:
 		return "DomainKeyword"
@@ -30,9 +29,7 @@ func (rt RuleType) String() string {
 	case IPCIDR:
 		return "IPCIDR"
 	case SrcIPCIDR:
-		return "SrcIPCIDR"
-	case SrcPort:
-		return "SrcPort"
+
 	case DstPort:
 		return "DstPort"
 	case Process:
